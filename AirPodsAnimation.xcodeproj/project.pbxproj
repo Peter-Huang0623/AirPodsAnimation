@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAC4BCA50EF28B71A8AF5B33 /* Pods_AirPodsAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9A487B0072C9C5BE0A91B3 /* Pods_AirPodsAnimation.framework */; };
+		E8255B2523A32BC300360134 /* HCAirPodsAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8255B2423A32BC300360134 /* HCAirPodsAnimationViewController.m */; };
+		E8255B2723A332C700360134 /* gift_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = E8255B2623A332C700360134 /* gift_animation.json */; };
 		E86753AE23A32A6500DBE5F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86753AD23A32A6500DBE5F2 /* AppDelegate.m */; };
 		E86753B123A32A6500DBE5F2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86753B023A32A6500DBE5F2 /* SceneDelegate.m */; };
 		E86753B423A32A6500DBE5F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86753B323A32A6500DBE5F2 /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4398E602D62BC4C4329A3E83 /* Pods-AirPodsAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPodsAnimation.release.xcconfig"; path = "Target Support Files/Pods-AirPodsAnimation/Pods-AirPodsAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		8F9A487B0072C9C5BE0A91B3 /* Pods_AirPodsAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirPodsAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BEB8FE3E52B22CE808A63 /* Pods-AirPodsAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPodsAnimation.debug.xcconfig"; path = "Target Support Files/Pods-AirPodsAnimation/Pods-AirPodsAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		E8255B2323A32BC300360134 /* HCAirPodsAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCAirPodsAnimationViewController.h; sourceTree = "<group>"; };
+		E8255B2423A32BC300360134 /* HCAirPodsAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCAirPodsAnimationViewController.m; sourceTree = "<group>"; };
+		E8255B2623A332C700360134 /* gift_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gift_animation.json; sourceTree = "<group>"; };
 		E86753A923A32A6500DBE5F2 /* AirPodsAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPodsAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86753AC23A32A6500DBE5F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E86753AD23A32A6500DBE5F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC4BCA50EF28B71A8AF5B33 /* Pods_AirPodsAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32FB2F73F7CE838AA9046645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F9A487B0072C9C5BE0A91B3 /* Pods_AirPodsAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0455F8949CF2EE79E7A0DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BEB8FE3E52B22CE808A63 /* Pods-AirPodsAnimation.debug.xcconfig */,
+				4398E602D62BC4C4329A3E83 /* Pods-AirPodsAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E86753A023A32A6500DBE5F2 = {
 			isa = PBXGroup;
 			children = (
 				E86753AB23A32A6500DBE5F2 /* AirPodsAnimation */,
 				E86753AA23A32A6500DBE5F2 /* Products */,
+				D0455F8949CF2EE79E7A0DAC /* Pods */,
+				32FB2F73F7CE838AA9046645 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +90,9 @@
 		E86753AB23A32A6500DBE5F2 /* AirPodsAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E8255B2623A332C700360134 /* gift_animation.json */,
+				E8255B2323A32BC300360134 /* HCAirPodsAnimationViewController.h */,
+				E8255B2423A32BC300360134 /* HCAirPodsAnimationViewController.m */,
 				E86753AC23A32A6500DBE5F2 /* AppDelegate.h */,
 				E86753AD23A32A6500DBE5F2 /* AppDelegate.m */,
 				E86753AF23A32A6500DBE5F2 /* SceneDelegate.h */,
@@ -83,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E86753C223A32A6600DBE5F2 /* Build configuration list for PBXNativeTarget "AirPodsAnimation" */;
 			buildPhases = (
+				1F2EF564BB65E0C9ECD237E8 /* [CP] Check Pods Manifest.lock */,
 				E86753A523A32A6500DBE5F2 /* Sources */,
 				E86753A623A32A6500DBE5F2 /* Frameworks */,
 				E86753A723A32A6500DBE5F2 /* Resources */,
+				5A36A5FE072BDC8D3F2B0307 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8255B2723A332C700360134 /* gift_animation.json in Resources */,
 				E86753BC23A32A6600DBE5F2 /* LaunchScreen.storyboard in Resources */,
 				E86753B923A32A6600DBE5F2 /* Assets.xcassets in Resources */,
 				E86753B723A32A6500DBE5F2 /* Main.storyboard in Resources */,
@@ -140,6 +175,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F2EF564BB65E0C9ECD237E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirPodsAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A36A5FE072BDC8D3F2B0307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimation/Pods-AirPodsAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimation/Pods-AirPodsAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimation/Pods-AirPodsAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E86753A523A32A6500DBE5F2 /* Sources */ = {
@@ -149,6 +226,7 @@
 				E86753B423A32A6500DBE5F2 /* ViewController.m in Sources */,
 				E86753AE23A32A6500DBE5F2 /* AppDelegate.m in Sources */,
 				E86753BF23A32A6600DBE5F2 /* main.m in Sources */,
+				E8255B2523A32BC300360134 /* HCAirPodsAnimationViewController.m in Sources */,
 				E86753B123A32A6500DBE5F2 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +365,7 @@
 		};
 		E86753C323A32A6600DBE5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8BEB8FE3E52B22CE808A63 /* Pods-AirPodsAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +383,7 @@
 		};
 		E86753C423A32A6600DBE5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4398E602D62BC4C4329A3E83 /* Pods-AirPodsAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
