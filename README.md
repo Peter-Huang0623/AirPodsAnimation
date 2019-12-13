@@ -5,7 +5,7 @@
 AirPods Pop Up Animation Fake With Lottie Animation
 
 # Preview GIF
-<div align=center> <img src='https://peterhuang.oss-cn-beijing.aliyuncs.com/notes_pics/ScreenFlow.gif' width='30%' height='30%'> </div>
+<div align=center> <img src='https://github.com/Peter-Huang0623/AirPodsAnimation/blob/master/ScreenFlow.gif' width='30%' height='30%'> </div>
 
 # Tips
 Before you build this demo, you should run `pod install` to install Lottie dependency.
