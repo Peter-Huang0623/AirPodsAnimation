@@ -2,5 +2,5 @@
 
 AirPods Pop Up Animation Fake
 
-![ScreenFlow](ScreenFlow.gif)
+![ScreenFlow](https://github.com/Peter-Huang0623/AirPodsAnimation/blob/master/ScreenFlow.gif)
 
