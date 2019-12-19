@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8F89E71BCD3838A9F43F54 /* Pods_AirPodsAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED926BE2D4D3851C444FAB /* Pods_AirPodsAnimationDemo.framework */; };
+		E8E57F1923A76291007E60BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57F1823A76291007E60BE /* AppDelegate.swift */; };
+		E8E57F1D23A76291007E60BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57F1C23A76291007E60BE /* ViewController.swift */; };
+		E8E57F2223A76294007E60BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E57F2123A76294007E60BE /* Assets.xcassets */; };
+		E8E57F2523A76294007E60BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E57F2323A76294007E60BE /* LaunchScreen.storyboard */; };
+		E8E57F2D23A769E1007E60BE /* HCAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57F2C23A769E1007E60BE /* HCAnimationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62F4A47C931B86AB8436878C /* Pods-AirPodsAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPodsAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-AirPodsAnimationDemo/Pods-AirPodsAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E57F1523A76291007E60BE /* AirPodsAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPodsAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E57F1823A76291007E60BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8E57F1C23A76291007E60BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8E57F2123A76294007E60BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E57F2423A76294007E60BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E57F2623A76294007E60BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E57F2C23A769E1007E60BE /* HCAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCAnimationViewController.swift; sourceTree = "<group>"; };
+		EBED926BE2D4D3851C444FAB /* Pods_AirPodsAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirPodsAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81C7DCA625079D64C02D00B /* Pods-AirPodsAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPodsAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-AirPodsAnimationDemo/Pods-AirPodsAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E57F1223A76291007E60BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8F89E71BCD3838A9F43F54 /* Pods_AirPodsAnimationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4313E8EAB3CFBEA4939D06BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F4A47C931B86AB8436878C /* Pods-AirPodsAnimationDemo.debug.xcconfig */,
+				F81C7DCA625079D64C02D00B /* Pods-AirPodsAnimationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95DCD334A5A24544340A1096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBED926BE2D4D3851C444FAB /* Pods_AirPodsAnimationDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E57F0C23A76291007E60BE = {
+			isa = PBXGroup;
+			children = (
+				E8E57F1723A76291007E60BE /* AirPodsAnimationDemo */,
+				E8E57F1623A76291007E60BE /* Products */,
+				4313E8EAB3CFBEA4939D06BA /* Pods */,
+				95DCD334A5A24544340A1096 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E57F1623A76291007E60BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E57F1523A76291007E60BE /* AirPodsAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E57F1723A76291007E60BE /* AirPodsAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E8E57F1823A76291007E60BE /* AppDelegate.swift */,
+				E8E57F1C23A76291007E60BE /* ViewController.swift */,
+				E8E57F2123A76294007E60BE /* Assets.xcassets */,
+				E8E57F2323A76294007E60BE /* LaunchScreen.storyboard */,
+				E8E57F2623A76294007E60BE /* Info.plist */,
+				E8E57F2C23A769E1007E60BE /* HCAnimationViewController.swift */,
+			);
+			path = AirPodsAnimationDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E57F1423A76291007E60BE /* AirPodsAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E57F2923A76294007E60BE /* Build configuration list for PBXNativeTarget "AirPodsAnimationDemo" */;
+			buildPhases = (
+				63DF081FC156A8396E509BC4 /* [CP] Check Pods Manifest.lock */,
+				E8E57F1123A76291007E60BE /* Sources */,
+				E8E57F1223A76291007E60BE /* Frameworks */,
+				E8E57F1323A76291007E60BE /* Resources */,
+				9903FFBBA8F9C81789CF3596 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPodsAnimationDemo;
+			productName = AirPodsAnimationDemo;
+			productReference = E8E57F1523A76291007E60BE /* AirPodsAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E57F0D23A76291007E60BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					E8E57F1423A76291007E60BE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = E8E57F1023A76291007E60BE /* Build configuration list for PBXProject "AirPodsAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E57F0C23A76291007E60BE;
+			productRefGroup = E8E57F1623A76291007E60BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E57F1423A76291007E60BE /* AirPodsAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E57F1323A76291007E60BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E57F2523A76294007E60BE /* LaunchScreen.storyboard in Resources */,
+				E8E57F2223A76294007E60BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63DF081FC156A8396E509BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirPodsAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9903FFBBA8F9C81789CF3596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimationDemo/Pods-AirPodsAnimationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimationDemo/Pods-AirPodsAnimationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirPodsAnimationDemo/Pods-AirPodsAnimationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E57F1123A76291007E60BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E57F1D23A76291007E60BE /* ViewController.swift in Sources */,
+				E8E57F1923A76291007E60BE /* AppDelegate.swift in Sources */,
+				E8E57F2D23A769E1007E60BE /* HCAnimationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8E57F2323A76294007E60BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E57F2423A76294007E60BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E57F2723A76294007E60BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8E57F2823A76294007E60BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E57F2A23A76294007E60BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F4A47C931B86AB8436878C /* Pods-AirPodsAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFVHCTQ8Z;
+				INFOPLIST_FILE = AirPodsAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.AirPodsAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E57F2B23A76294007E60BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81C7DCA625079D64C02D00B /* Pods-AirPodsAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFVHCTQ8Z;
+				INFOPLIST_FILE = AirPodsAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.AirPodsAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E57F1023A76291007E60BE /* Build configuration list for PBXProject "AirPodsAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E57F2723A76294007E60BE /* Debug */,
+				E8E57F2823A76294007E60BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E57F2923A76294007E60BE /* Build configuration list for PBXNativeTarget "AirPodsAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E57F2A23A76294007E60BE /* Debug */,
+				E8E57F2B23A76294007E60BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E57F0D23A76291007E60BE /* Project object */;
+}
