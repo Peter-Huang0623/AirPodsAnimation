@@ -1,5 +1,3 @@
-# 【iOS开发】仿AirPods弹出动画的实现
-
 ![airpodsfake](https://gz.bcebos.com/v1/peterhuang/PIC/notes/AirPods.png)
 
 ## 效果图
