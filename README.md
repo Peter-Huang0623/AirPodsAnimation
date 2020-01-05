@@ -1,9 +1,9 @@
-![airpodsfake](https://peterhuang.oss-cn-beijing.aliyuncs.com/notes_pics/airpodsfake.png)
+![airpodsfake](https://github.com/Peter-Huang0623/AirPodsAnimation/blob/master/ScreenFlow.gif)
 
 # 【iOS开发】仿AirPods弹出动画的实现
 ## 效果图
 <p align="center">
-	<img src="https://gz.bcebos.com/v1/peterhuang/PIC/notes/AirPods.png" width="25%" height="25%">
+	<img src="https://github.com/Peter-Huang0623/AirPodsAnimation/blob/master/ScreenFlow.gif" width="25%" height="25%">
 	<p align="center">
 		<text>预览图</text>
 	</p>
